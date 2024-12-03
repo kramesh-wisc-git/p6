@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "wfs.h"
 #include <unistd.h>
 #include <string.h>
+#include "wfs.h"
 
 int main(int argc, char *argv[]) {
     if(argc < 9) { // invalid number of args
